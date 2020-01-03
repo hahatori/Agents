@@ -6,7 +6,7 @@ Created on Thu Nov  7 21:24:10 2019
 @author: toriliang
 """
 
-import random
+ import random
  import operator
  import matplotlib.pyplot
  import agentframework
@@ -26,11 +26,11 @@ import random
  # Move the agents.
  for j in range(num_of_iterations):
      for i in range(num_of_agents):
-
          agents[i].move()
 
  matplotlib.pyplot.xlim(0, 99)
  matplotlib.pyplot.ylim(0, 99)
+ 
  for i in range(num_of_agents):
      matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
  matplotlib.pyplot.show()
