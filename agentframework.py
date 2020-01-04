@@ -29,9 +29,12 @@ class Agent():
             self.y = (self.y - 1) % 100 
 
             
-# creat objects, test the output random numbers y and x.             
+# Creat objects, test the output random numbers y and x.             
 a = Agent()
 print(a.y, a.x)
 
 a.move()
 print(a.y, a.x)
+
+
+
