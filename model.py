@@ -3,20 +3,20 @@
 """
 Created on Thu Nov  7 21:24:10 2019
 
-@author: toriliang
+@author: tori
 """
-
 
 import random
 import operator
 import matplotlib.pyplot
 import agentframework
 
-#Calculate the distance between two points. 
+# Calculate the distance between two points. 
 def distance_between(agents_row_a, agents_row_b):
     return (((agents_row_a.x - agents_row_b.x)**2) +
     ((agents_row_a.y - agents_row_b.y)**2))**0.5
 
+# Define arguments.
 num_of_agents = 10
 num_of_iterations = 100
 agents = []
@@ -46,9 +46,3 @@ for agents_row_a in agents:
         
 
 
-
-
-        
-        
-        
- 
