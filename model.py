@@ -44,7 +44,7 @@ for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b)
         
-distance_between(agents_row_a, agents_row_b)
+
 
 
 
