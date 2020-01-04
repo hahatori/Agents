@@ -9,7 +9,7 @@ Created on Thu Nov  7 22:05:27 2019
 import random
 
 # Build the Agent class.
-class Agent():
+class Agent:
     
     # Define the initialization method to assign values of x and y.
     def __init__(self):
