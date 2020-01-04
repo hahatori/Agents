@@ -40,6 +40,7 @@ for i in range(num_of_agents):
     matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
 matplotlib.pyplot.show()
 
+# Use for-each loop iterator to put out agents.
 for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b)
