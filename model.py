@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  7 21:24:10 2019
-
-@author: tori
-"""
-
 import random
 import operator
 import matplotlib.pyplot
