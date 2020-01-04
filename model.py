@@ -12,6 +12,7 @@ import operator
 import matplotlib.pyplot
 import agentframework
 
+#Calculate the distance between two points. 
 def distance_between(agents_row_a, agents_row_b):
     return (((agents_row_a.x - agents_row_b.x)**2) +
     ((agents_row_a.y - agents_row_b.y)**2))**0.5
@@ -29,9 +30,12 @@ for j in range(num_of_iterations):
     for i in range(num_of_agents):
         agents[i].move()
 
+# Set plot attributes.        
 matplotlib.pyplot.xlim(0, 99)
 matplotlib.pyplot.ylim(0, 99)
- 
+matplotlib.pyplot.title("Scatter Plot")
+
+# Make "for" loops.
 for i in range(num_of_agents):
     matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
 matplotlib.pyplot.show()
@@ -39,6 +43,8 @@ matplotlib.pyplot.show()
 for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b)
+        
+distance_between(agents_row_a, agents_row_b)
 
 
 
