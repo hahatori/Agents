@@ -19,14 +19,16 @@ class Agent:
             self.y = (self.y + 1) % 100
         else:
             self.y = (self.y - 1) % 100 
-
+            
+       print("y= %s, x= %s" % (self.y, self.x)) # Test random numbers.
             
 # Creat objects, test the output random numbers y and x.             
 a = Agent()
-print(a.y, a.x)
+print(a)# Display a hexadecimal address.
+print(a.y, a.x) # Display random numbers of y and x.
 
-a.move()
-print(a.y, a.x)
+a.move() #The output of x and y is the same as the following line.
+print("y= %s, x= %s" % (a.y, a.x))
 
 
 
