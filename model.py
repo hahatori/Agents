@@ -30,7 +30,7 @@ matplotlib.pyplot.title("Scatter Plot")  # Set plot title.
 # Make for-loops and show the scatter dots plot.
 for i in range(num_of_agents):
     matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
-matplotlib.pyplot.show() 
+matplotlib.pyplot.show() # Display the plot.
 
 # Use for-each loop iterator to put out agents.
 for agents_row_a in agents:
