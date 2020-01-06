@@ -48,17 +48,17 @@ $ if True:
 
 ### for...in... statement
 
-i= 1,2,3,4
+i= 1, 2, 3, 4
 ```sh
 $ for in in range(5)
 ```
 
-i= 5,6,7,8,9
+i= 5, 6, 7, 8, 9
 ```sh
 $ for in in range(5, 10)
 ```
 
-i= 5,7,9
+i= 5, 7, 9
 ```sh
 $ for in in range(5, 10, 2)
 ```
