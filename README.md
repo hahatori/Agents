@@ -13,8 +13,9 @@ This project including [agentframework.py](https://github.com/hahatori/Agents/bl
 
 ### ABM (Agent-Based Model):
 
-[Agent]() code can build agents to interact.
-[Model]() code can creat models for connecting developers and users.
+**Agent** code can build agents to interact.
+
+**Model** code can creat models for connecting developers and users.
 
 ### random module:
 
