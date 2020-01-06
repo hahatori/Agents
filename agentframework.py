@@ -9,7 +9,7 @@ class Agent:
         self.y = random.randint(0,99)  # Generate a random number between 0 and 99 and assign it to y.
         self.x = random.randint(0,99)  # Generate a random number between 0 and 99 and assign it to x.
         
-    # Define the "move" method, use if...else statement to change x and y. 
+    # Define the move method, use if...else statement and Torus to deal with boundary issues. 
     def move(self):
         if random.random() < 0.5:         # If the generated random number is less than 0.5,
             self.x = (self.x + 1) % 100   # execute this statement and assign result to x.
