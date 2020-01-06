@@ -5,8 +5,8 @@ This project including [agentframework.py](https://github.com/hahatori/Agents/bl
 ## Contents
 
 - [Details](#details)
-- [Theoretical Result](#theoretical)
-- [Actual Result](#actual)
+- [Theoretical Result](#theoretical_result)
+- [Actual Result](#actual_result)
 - [Issues](#issues)
 
 ## Details
@@ -16,8 +16,22 @@ This project including [agentframework.py](https://github.com/hahatori/Agents/bl
 [Agent]() code can build agents to interact.
 [Model]() code can creat models for connecting developers and users.
 
-###
+### random module:
 
+```sh
+$ random.random()
+```
+It generates a random number of characters from 0 to 1 ：0 <= n < 1.0.
+
+```sh
+$ random.randint(12, 20)
+```
+It generates a random number n: 12 <= n <= 20
+
+```sh
+$ random.randint(20, 12)
+```
+Error.
 
 ## Theoretical Results
 
