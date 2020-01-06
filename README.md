@@ -5,8 +5,8 @@ This project including [agentframework.py](https://github.com/hahatori/Agents/bl
 ## Contents
 
 - [Details](#details)
-- [Theoretical_Results](#theoretical_results)
-- [Actual_Results](#actual_results)
+- [Theoretical Results](#theoretical-results)
+- [Actual Results](#actual-results)
 - [Issues](#issues)
 
 ## Details
