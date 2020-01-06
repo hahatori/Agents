@@ -37,6 +37,31 @@ Error:
 $ random.randint(20, 12)
 ```
 
+### if...else statement
+
+```sh
+$ if True:
+    print('Yes, it is true.')
+  else:
+    print('No, it is false.')
+```
+### for...in... statement
+
+i= 1,2,3,4
+```sh
+$ for in in range(5)
+```
+
+i= 5,6,7,8,9
+```sh
+$ for in in range(5, 10)
+```
+
+i= 5,7,9
+```sh
+$ for in in range(5, 10, 2)
+```
+
 ## Theoretical Results
 
 Expect to move random coordinate points and calculate the distance between two sets of them, then show the 10 points in a scatter plot with x and y axes of 0 to 99. 
