@@ -5,8 +5,8 @@ This project including [agentframework.py](https://github.com/hahatori/Agents/bl
 ## Contents
 
 - [Details](#details)
-- [Theoretical Results](#theoretical_result)
-- [Actual Results](#actual_result)
+- [Theoretical_Results](#theoretical_results)
+- [Actual_Results](#actual_results)
 - [Issues](#issues)
 
 ## Details
@@ -41,10 +41,11 @@ $ random.randint(20, 12)
 
 ```sh
 $ if True:
-    print('Yes, it is true.')
+      print('Yes, it is true.')
   else:
-    print('No, it is false.')
+      print('No, it is false.')
 ```
+
 ### for...in... statement
 
 i= 1,2,3,4
