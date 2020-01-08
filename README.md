@@ -75,7 +75,7 @@ Expect to move random coordinate points and calculate the distance between two s
 
 1. Indentation of 4 spaces.
 
-2. The code is complex and long in **model.py**, without importing the statement of **agentframework.py**.
+2. The code is complex and long in **model.py**, without complete import and modify the statement of **agentframework.py**.
 
 
 
